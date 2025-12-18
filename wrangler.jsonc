@@ -5,5 +5,11 @@
 	"assets": {
 		"binding": "ASSETS",
 		"directory": ".svelte-kit/cloudflare",
-	}
+	},
+    "routes": [
+        {
+            "pattern": "api-toolkit.tophhie.cloud",
+            "custom_domain": true,
+        }
+    ]
 }
