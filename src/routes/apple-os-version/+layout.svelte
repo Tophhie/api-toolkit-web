@@ -1,11 +1,11 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg';
 	let { children } = $props();
-	import '../app.css';
+    import '../../app.css'
 </script>
 
 <svelte:head>
-	<title>Tophhie Cloud API Toolkit</title>
+	<title>Tophhie Cloud API Toolkit: Apple OS Version API</title>
 	<link rel="icon" href={favicon} />
 	<meta name="theme-color" content="#100235" >
 	<meta name="apple-mobile-web-app-capable" content="yes">
